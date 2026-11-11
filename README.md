@@ -1,6 +1,35 @@
-# ASA-CD linguistic biomarker analysis
+# NLP-Driven Linguistic Biomarker Discovery
+
+*Applied sociolinguistic AI · Natural language processing · Statistical machine learning · Reproducible research*
 
 Code for the empirical study in *Applied Sociolinguistic AI for Community Development (ASA-CD): a framework for linguistically grounded community intervention, with evidence from two public corpora* (Alam & Ferzana).
+
+## Overview
+
+This repository contains the reproducible analysis code and archived results for an empirical investigation of **linguistic markers associated with sentiment** across two public social media corpora. It quantifies exclusive pronouns, inclusive pronouns and absolutist language, then evaluates their relationships with sentiment using statistical tests, logistic and ordinal regression, topic controls and robustness checks.
+
+**Technology:** Python, pandas, NumPy, SciPy, statsmodels, scikit-learn and Matplotlib.
+
+### Results visualisation
+
+![Biomarker prevalence by corpus and sentiment](results/figure_biomarkers.png)
+
+A [scalable vector version](results/figure_biomarkers.svg) is also available. The error bars indicate 95% bootstrap confidence intervals.
+
+### Repository structure
+
+```text
+├── biomarkers.py                   # Linguistic feature extraction and primary analysis
+├── robustness.py                    # Additional model specifications and robustness checks
+├── referent_coding_sheet.csv        # Sample for referent coding
+├── requirements.txt                 # Python dependencies
+├── data/                            # Download the two source datasets here
+└── results/
+    ├── results.json                # Main findings
+    ├── robustness.json             # Robustness analyses
+    ├── figure_biomarkers.png       # Generated figure
+    └── figure_biomarkers.svg       # Vector rendition
+```
 
 ## Data
 Download both public datasets into `data/`:
@@ -33,6 +62,10 @@ python robustness.py data/YoutubeCommentsDataSet.csv data/Tweets.csv results/
 - Exclusive pronouns: they, them, their, theirs, themselves
 - Inclusive pronouns: we, us, our, ours, ourselves
 - Absolutist words (Al-Mosaiwi & Johnstone, 2018): absolutely, all, always, complete, completely, constant, constantly, definitely, entire, ever, every, everyone, everything, full, must, never, nothing, totally, whole
+
+## Research scope and limitations
+
+The analysis identifies **associations, not causal effects**. Linguistic features are defined by transparent dictionaries and may depend on context, language variety and corpus characteristics. The original full corpora are not redistributed here; follow the dataset links and their licensing terms. Saved results and the coding sheet are provided to aid inspection and reproducibility.
 
 ## Licence
 MIT. The datasets are subject to their own licences on Kaggle.
