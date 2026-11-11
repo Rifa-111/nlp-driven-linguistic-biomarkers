@@ -1,0 +1,350 @@
+{
+ "youtube": {
+  "R0_baseline": {
+   "excl_any": {
+    "OR": 2.52,
+    "CI": [
+     2.24,
+     2.83
+    ],
+    "p": 9.552266845935871e-55
+   },
+   "abs_any": {
+    "OR": 0.85,
+    "CI": [
+     0.77,
+     0.94
+    ],
+    "p": 0.0016621755836571295
+   },
+   "incl_any": {
+    "OR": 1.08,
+    "CI": [
+     0.94,
+     1.23
+    ],
+    "p": 0.28327120591726296
+   }
+  },
+  "R1_rates_per100w": {
+   "excl_rate": {
+    "OR": 1.16,
+    "CI": [
+     1.14,
+     1.19
+    ],
+    "p": 4.7070784664685836e-48
+   },
+   "abs_rate": {
+    "OR": 0.98,
+    "CI": [
+     0.96,
+     0.99
+    ],
+    "p": 0.002226614997343225
+   },
+   "incl_rate": {
+    "OR": 1,
+    "CI": [
+     0.97,
+     1.02
+    ],
+    "p": 0.7835219498802379
+   }
+  },
+  "R2_ordinal_OR_more_negative": {
+   "excl_any": {
+    "OR": 1.93,
+    "CI": [
+     1.77,
+     2.11
+    ],
+    "p": 1.5891921457730718e-48
+   },
+   "abs_any": {
+    "OR": 0.63,
+    "CI": [
+     0.59,
+     0.68
+    ],
+    "p": 1.5166173361253304e-37
+   },
+   "incl_any": {
+    "OR": 1.05,
+    "CI": [
+     0.96,
+     1.16
+    ],
+    "p": 0.2989762822835994
+   }
+  },
+  "R3_topic_fixed_effects": {
+   "excl_any": {
+    "OR": 2.17,
+    "CI": [
+     1.92,
+     2.45
+    ],
+    "p": 3.9368688298561924e-35
+   },
+   "abs_any": {
+    "OR": 0.86,
+    "CI": [
+     0.78,
+     0.96
+    ],
+    "p": 0.0062787793727638735
+   },
+   "incl_any": {
+    "OR": 0.97,
+    "CI": [
+     0.84,
+     1.12
+    ],
+    "p": 0.6832502070988771
+   }
+  },
+  "R3_topics": {
+   "0": "love, like, song, looks, music, really",
+   "1": "game, games, just, series, good, really",
+   "2": "apple, pro, iphone, just, 14, new",
+   "3": "like, love, legend, thank, god, used",
+   "4": "son, se, los, la, tan, 2222",
+   "5": "video, thank, great, videos, thanks, really",
+   "6": "just, like, im, love, time, man",
+   "7": "people, like, dont, just, know, make",
+   "8": "data, learning, science, market, machine, computer",
+   "9": "que, la, el, en, yeah, wanna"
+  },
+  "R4_referent_split": {
+   "excl_inst": {
+    "OR": 2.79,
+    "CI": [
+     2.15,
+     3.61
+    ],
+    "p": 8.593466463614496e-15
+   },
+   "excl_other": {
+    "OR": 2.48,
+    "CI": [
+     2.2,
+     2.81
+    ],
+    "p": 1.4747738909039264e-48
+   }
+  },
+  "R4_share_excl_in_inst_context": 0.146,
+  "R5_length_5_60": {
+   "excl_any": {
+    "OR": 2.43,
+    "CI": [
+     2.13,
+     2.78
+    ],
+    "p": 7.702146669324697e-39
+   },
+   "abs_any": {
+    "OR": 0.84,
+    "CI": [
+     0.76,
+     0.94
+    ],
+    "p": 0.0025054002902272364
+   },
+   "incl_any": {
+    "OR": 0.99,
+    "CI": [
+     0.84,
+     1.16
+    ],
+    "p": 0.9035377398074044
+   }
+  },
+  "R5_n": 11707,
+  "R6_absolutist_without_all_ever": {
+   "abs2_any": {
+    "OR": 0.89,
+    "CI": [
+     0.8,
+     1
+    ],
+    "p": 0.04046086168056091
+   }
+  }
+ },
+ "airline": {
+  "R0_baseline": {
+   "excl_any": {
+    "OR": 1.24,
+    "CI": [
+     1.01,
+     1.53
+    ],
+    "p": 0.04067225318611406
+   },
+   "abs_any": {
+    "OR": 0.97,
+    "CI": [
+     0.84,
+     1.12
+    ],
+    "p": 0.6948283524330634
+   },
+   "incl_any": {
+    "OR": 0.95,
+    "CI": [
+     0.82,
+     1.11
+    ],
+    "p": 0.5222971990430814
+   }
+  },
+  "R1_rates_per100w": {
+   "excl_rate": {
+    "OR": 1.03,
+    "CI": [
+     1,
+     1.05
+    ],
+    "p": 0.06558591231638435
+   },
+   "abs_rate": {
+    "OR": 1.01,
+    "CI": [
+     0.99,
+     1.02
+    ],
+    "p": 0.4629959891844838
+   },
+   "incl_rate": {
+    "OR": 1,
+    "CI": [
+     0.99,
+     1.02
+    ],
+    "p": 0.6601069783832945
+   }
+  },
+  "R2_ordinal_OR_more_negative": {
+   "excl_any": {
+    "OR": 1.37,
+    "CI": [
+     1.17,
+     1.59
+    ],
+    "p": 0.00006437248406132373
+   },
+   "abs_any": {
+    "OR": 1.42,
+    "CI": [
+     1.26,
+     1.59
+    ],
+    "p": 2.4253068348647095e-9
+   },
+   "incl_any": {
+    "OR": 0.94,
+    "CI": [
+     0.85,
+     1.04
+    ],
+    "p": 0.26185968844719376
+   }
+  },
+  "R3_topic_fixed_effects": {
+   "excl_any": {
+    "OR": 1.25,
+    "CI": [
+     1,
+     1.56
+    ],
+    "p": 0.05250650860466644
+   },
+   "abs_any": {
+    "OR": 1.11,
+    "CI": [
+     0.96,
+     1.29
+    ],
+    "p": 0.17239295529545318
+   },
+   "incl_any": {
+    "OR": 0.89,
+    "CI": [
+     0.76,
+     1.05
+    ],
+    "p": 0.15577954150602444
+   }
+  },
+  "R3_topics": {
+   "0": "service, customer, experience, staff, thanks, care",
+   "1": "thank, thanks, guys, dm, http, love",
+   "2": "flight, problems, seat, booking, did, just",
+   "3": "flight, gate, late, ll, agent, time",
+   "4": "flight, cancelled, flights, flightled, http, tomorrow",
+   "5": "let, won, know, don, airline, worst",
+   "6": "flight, hours, hold, hour, plane, waiting",
+   "7": "flight, boarding, hope, miles, trip, voucher",
+   "8": "flight, trying, help, online, book, bag",
+   "9": "got, just, thanks, number, amp, ve"
+  },
+  "R4_referent_split": {
+   "excl_inst": {
+    "OR": 1.22,
+    "CI": [
+     0.91,
+     1.62
+    ],
+    "p": 0.18271538979613278
+   },
+   "excl_other": {
+    "OR": 1.28,
+    "CI": [
+     0.95,
+     1.71
+    ],
+    "p": 0.10609629588781823
+   }
+  },
+  "R4_share_excl_in_inst_context": 0.542,
+  "R5_length_5_60": {
+   "excl_any": {
+    "OR": 1.24,
+    "CI": [
+     1.01,
+     1.53
+    ],
+    "p": 0.04380424748298233
+   },
+   "abs_any": {
+    "OR": 0.96,
+    "CI": [
+     0.83,
+     1.11
+    ],
+    "p": 0.5710386044513818
+   },
+   "incl_any": {
+    "OR": 0.95,
+    "CI": [
+     0.82,
+     1.1
+    ],
+    "p": 0.49680232017608794
+   }
+  },
+  "R5_n": 10995,
+  "R6_absolutist_without_all_ever": {
+   "abs2_any": {
+    "OR": 1.19,
+    "CI": [
+     0.99,
+     1.42
+    ],
+    "p": 0.06419822368778254
+   }
+  }
+ }
+}
