@@ -1,0 +1,67 @@
+name: Generate biomarker figure
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "results/results.json"
+      - ".github/workflows/generate-figure.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install figure dependencies
+        run: pip install numpy matplotlib
+      - name: Render figure from archived results
+        run: |
+          python - <<'PY'
+          import json
+          import numpy as np
+          import matplotlib
+          matplotlib.use("Agg")
+          import matplotlib.pyplot as plt
+
+          with open("results/results.json") as f:
+              results = json.load(f)
+          labels = {"excl": "Exclusive pronouns\n(they/them/their)",
+                    "abs": "Absolutist / generalising\nwords",
+                    "incl": "Inclusive pronouns\n(we/us/our)"}
+          cols = {"negative": "#b4452f", "neutral": "#8a8a8a", "positive": "#2f6f8f"}
+          fig, axes = plt.subplots(1, 2, figsize=(10, 4), sharey=True)
+          for ax, (name, title) in zip(axes, (("youtube", "A. YouTube comments"),
+                                             ("airline", "B. Airline tweets"))):
+              t = results[name]["by_sentiment"]
+              x = np.arange(3)
+              for i, s in enumerate(["negative", "neutral", "positive"]):
+                  vals = [t[s][k + "_prev"][0] for k in labels]
+                  err = [[t[s][k + "_prev"][0] - t[s][k + "_prev"][1] for k in labels],
+                         [t[s][k + "_prev"][2] - t[s][k + "_prev"][0] for k in labels]]
+                  ax.bar(x + (i - 1) * 0.26, vals, 0.26,
+                         yerr=err, capsize=2, color=cols[s], label=s.capitalize())
+              ax.set_xticks(x)
+              ax.set_xticklabels(labels.values(), fontsize=8)
+              ax.set_title(title, fontsize=10, loc="left")
+              ax.spines[["top", "right"]].set_visible(False)
+          axes[0].set_ylabel("% of texts containing marker")
+          axes[0].legend(frameon=False, fontsize=8)
+          plt.tight_layout()
+          plt.savefig("results/figure_biomarkers.png", dpi=300)
+          PY
+      - name: Commit generated image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/figure_biomarkers.png
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate biomarker figure from saved results"
+            git push
+          fi
