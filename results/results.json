@@ -1,0 +1,292 @@
+{
+  "youtube": {
+    "n_comments": 17826,
+    "sentiment_counts": {
+      "positive": 11181,
+      "neutral": 4316,
+      "negative": 2329
+    },
+    "median_words": 22,
+    "by_sentiment": {
+      "negative": {
+        "excl_prev": [
+          27,
+          25.2,
+          28.8
+        ],
+        "excl_rate_mean": 1.15,
+        "abs_prev": [
+          35.3,
+          33.3,
+          37.2
+        ],
+        "abs_rate_mean": 1.52,
+        "incl_prev": [
+          14.6,
+          13.2,
+          16.1
+        ],
+        "incl_rate_mean": 0.59,
+        "no_incl_pct": 85.4
+      },
+      "neutral": {
+        "excl_prev": [
+          13.6,
+          12.7,
+          14.6
+        ],
+        "excl_rate_mean": 0.56,
+        "abs_prev": [
+          20.7,
+          19.5,
+          21.9
+        ],
+        "abs_rate_mean": 0.96,
+        "incl_prev": [
+          11.4,
+          10.4,
+          12.3
+        ],
+        "incl_rate_mean": 0.55,
+        "no_incl_pct": 88.6
+      },
+      "positive": {
+        "excl_prev": [
+          11.6,
+          11.1,
+          12.3
+        ],
+        "excl_rate_mean": 0.47,
+        "abs_prev": [
+          34.7,
+          33.8,
+          35.5
+        ],
+        "abs_rate_mean": 1.84,
+        "incl_prev": [
+          11.8,
+          11.2,
+          12.4
+        ],
+        "incl_rate_mean": 0.59,
+        "no_incl_pct": 88.2
+      }
+    },
+    "overall": {
+      "excl_prev": 14.1,
+      "abs_prev": 31.4,
+      "incl_prev": 12,
+      "excl_mean_count": 0.245,
+      "abs_mean_count": 0.451,
+      "incl_mean_count": 0.195,
+      "no_incl_pct": 88
+    },
+    "tests": {
+      "excl": {
+        "chi2": 373.9,
+        "df": 2,
+        "p": 6.42584882006045e-82,
+        "cramers_v": 0.145,
+        "kruskal_H": 376.57,
+        "kruskal_p": 1.6921620601115132e-82
+      },
+      "abs": {
+        "chi2": 300.67,
+        "df": 2,
+        "p": 5.126534575555341e-66,
+        "cramers_v": 0.13,
+        "kruskal_H": 327.36,
+        "kruskal_p": 8.208436069626918e-72
+      },
+      "incl": {
+        "chi2": 16.41,
+        "df": 2,
+        "p": 0.00027295946954525096,
+        "cramers_v": 0.03,
+        "kruskal_H": 13.64,
+        "kruskal_p": 0.0010941500389610608
+      }
+    },
+    "logit_neg_vs_pos": {
+      "excl_any": {
+        "OR": 2.52,
+        "CI": [
+          2.24,
+          2.83
+        ],
+        "p": 9.552266845935871e-55
+      },
+      "abs_any": {
+        "OR": 0.85,
+        "CI": [
+          0.77,
+          0.94
+        ],
+        "p": 0.0016621755836571295
+      },
+      "incl_any": {
+        "OR": 1.08,
+        "CI": [
+          0.94,
+          1.23
+        ],
+        "p": 0.28327120591726296
+      },
+      "log_words": {
+        "OR": 1.18,
+        "CI": [
+          1.11,
+          1.26
+        ],
+        "p": 1.6952554132151828e-7
+      }
+    },
+    "logit_n": 13510,
+    "logit_pseudo_r2": 0.029
+  },
+  "airline": {
+    "n_comments": 14270,
+    "sentiment_counts": {
+      "negative": 9117,
+      "neutral": 2964,
+      "positive": 2189
+    },
+    "median_words": 18,
+    "by_sentiment": {
+      "negative": {
+        "excl_prev": [
+          8.4,
+          7.8,
+          8.9
+        ],
+        "excl_rate_mean": 0.52,
+        "abs_prev": [
+          15.6,
+          14.8,
+          16.3
+        ],
+        "abs_rate_mean": 1.01,
+        "incl_prev": [
+          14.4,
+          13.6,
+          15.1
+        ],
+        "incl_rate_mean": 1.01,
+        "no_incl_pct": 85.6
+      },
+      "neutral": {
+        "excl_prev": [
+          4.1,
+          3.5,
+          4.9
+        ],
+        "excl_rate_mean": 0.29,
+        "abs_prev": [
+          5.3,
+          4.5,
+          6.1
+        ],
+        "abs_rate_mean": 0.43,
+        "incl_prev": [
+          12.9,
+          11.8,
+          14.1
+        ],
+        "incl_rate_mean": 1.09,
+        "no_incl_pct": 87.1
+      },
+      "positive": {
+        "excl_prev": [
+          5.1,
+          4.2,
+          6
+        ],
+        "excl_rate_mean": 0.36,
+        "abs_prev": [
+          13.5,
+          12.1,
+          14.9
+        ],
+        "abs_rate_mean": 1.12,
+        "incl_prev": [
+          11.5,
+          10.2,
+          12.8
+        ],
+        "incl_rate_mean": 0.88,
+        "no_incl_pct": 88.5
+      }
+    },
+    "overall": {
+      "excl_prev": 7,
+      "abs_prev": 13.1,
+      "incl_prev": 13.6,
+      "excl_mean_count": 0.081,
+      "abs_mean_count": 0.145,
+      "incl_mean_count": 0.174,
+      "no_incl_pct": 86.4
+    },
+    "tests": {
+      "excl": {
+        "chi2": 75.52,
+        "df": 2,
+        "p": 3.9855707517896436e-17,
+        "cramers_v": 0.073,
+        "kruskal_H": 72.69,
+        "kruskal_p": 1.6415646705375054e-16
+      },
+      "abs": {
+        "chi2": 208.73,
+        "df": 2,
+        "p": 4.729259505845147e-46,
+        "cramers_v": 0.121,
+        "kruskal_H": 200.12,
+        "kruskal_p": 3.4994677700882615e-44
+      },
+      "incl": {
+        "chi2": 13.71,
+        "df": 2,
+        "p": 0.0010535986240343697,
+        "cramers_v": 0.031,
+        "kruskal_H": 10.75,
+        "kruskal_p": 0.0046202831838794214
+      }
+    },
+    "logit_neg_vs_pos": {
+      "excl_any": {
+        "OR": 1.24,
+        "CI": [
+          1.01,
+          1.53
+        ],
+        "p": 0.04067225318611406
+      },
+      "abs_any": {
+        "OR": 0.97,
+        "CI": [
+          0.84,
+          1.12
+        ],
+        "p": 0.6948283524330634
+      },
+      "incl_any": {
+        "OR": 0.95,
+        "CI": [
+          0.82,
+          1.11
+        ],
+        "p": 0.5222971990430814
+      },
+      "log_words": {
+        "OR": 4.09,
+        "CI": [
+          3.71,
+          4.5
+        ],
+        "p": 2.951999230709971e-181
+      }
+    },
+    "logit_n": 11306,
+    "logit_pseudo_r2": 0.082
+  }
+}
