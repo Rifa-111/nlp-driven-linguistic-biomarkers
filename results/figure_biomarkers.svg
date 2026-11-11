@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 570" role="img" aria-labelledby="title desc">
+<title id="title">Linguistic biomarker prevalence by sentiment and corpus</title><desc id="desc">Grouped bar charts for YouTube comments and airline tweets showing exclusive pronouns, absolutist words and inclusive pronouns across negative, neutral and positive sentiment categories, with confidence intervals.</desc>
+<rect x="0" y="0" width="1240" height="570" fill="#ffffff"/>
+<text x="54" y="45" font-family="Arial, sans-serif" font-size="25" font-weight="bold" fill="#243141">Linguistic biomarker prevalence by sentiment</text>
+<text x="54" y="72" font-family="Arial, sans-serif" font-size="15" fill="#5b6775">Prevalence (%) and 95% bootstrap confidence intervals across two public corpora</text>
+<text x="60" y="111" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#263648">A. YouTube comments</text>
+<line x1="60" x2="590" y1="420" y2="420" stroke="#e7eaf0" stroke-width="1"/>
+<text x="49" y="425" font-size="12" font-family="Arial" text-anchor="end" fill="#5b6775">0</text>
+<line x1="60" x2="590" y1="347" y2="347" stroke="#e7eaf0" stroke-width="1"/>
+<text x="49" y="352" font-size="12" font-family="Arial" text-anchor="end" fill="#5b6775">10</text>
+<line x1="60" x2="590" y1="274" y2="274" stroke="#e7eaf0" stroke-width="1"/>
+<text x="49" y="279" font-size="12" font-family="Arial" text-anchor="end" fill="#5b6775">20</text>
+<line x1="60" x2="590" y1="201" y2="201" stroke="#e7eaf0" stroke-width="1"/>
+<text x="49" y="206" font-size="12" font-family="Arial" text-anchor="end" fill="#5b6775">30</text>
+<line x1="60" x2="590" y1="128" y2="128" stroke="#e7eaf0" stroke-width="1"/>
+<text x="49" y="133" font-size="12" font-family="Arial" text-anchor="end" fill="#5b6775">40</text>
+<line x1="60" x2="60" y1="128" y2="420" stroke="#8893a0"/>
+<line x1="60" x2="590" y1="420" y2="420" stroke="#8893a0"/>
+<rect x="122" y="222.89999999999998" width="21" height="197.10000000000002" fill="#b4452f" rx="1"/>
+<line x1="132.5" x2="132.5" y1="209.76000000000002" y2="236.04" stroke="#303b48" stroke-width="1.2"/>
+<line x1="128.5" x2="136.5" y1="209.76000000000002" y2="209.76000000000002" stroke="#303b48" stroke-width="1.2"/>
+<line x1="128.5" x2="136.5" y1="236.04" y2="236.04" stroke="#303b48" stroke-width="1.2"/>
+<rect x="146" y="320.72" width="21" height="99.27999999999999" fill="#8a8a8a" rx="1"/>
+<line x1="156.5" x2="156.5" y1="313.42" y2="327.28999999999996" stroke="#303b48" stroke-width="1.2"/>
+<line x1="152.5" x2="160.5" y1="313.42" y2="313.42" stroke="#303b48" stroke-width="1.2"/>
+<line x1="152.5" x2="160.5" y1="327.28999999999996" y2="327.28999999999996" stroke="#303b48" stroke-width="1.2"/>
+<rect x="170" y="335.32" width="21" height="84.67999999999999" fill="#2f6f8f" rx="1"/>
+<line x1="180.5" x2="180.5" y1="330.21000000000004" y2="338.97" stroke="#303b48" stroke-width="1.2"/>
+<line x1="176.5" x2="184.5" y1="330.21000000000004" y2="330.21000000000004" stroke="#303b48" stroke-width="1.2"/>
+<line x1="176.5" x2="184.5" y1="338.97" y2="338.97" stroke="#303b48" stroke-width="1.2"/>
+<text x="156" y="446" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#354352">Exclusive pronouns</text>
+<text x="156" y="462" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#354352">(they/them/their)</text>
+<rect x="292" y="162.31" width="21" height="257.69" fill="#b4452f" rx="1"/>
+<line x1="302.5" x2="302.5" y1="148.44" y2="176.91000000000003" stroke="#303b48" stroke-width="1.2"/>
+<line x1="298.5" x2="306.5" y1="148.44" y2="148.44" stroke="#303b48" stroke-width="1.2"/>
+<line x1="298.5" x2="306.5" y1="176.91000000000003" y2="176.91000000000003" stroke="#303b48" stroke-width="1.2"/>
+<rect x="316" y="268.89" width="21" height="151.10999999999999" fill="#8a8a8a" rx="1"/>
+<line x1="326.5" x2="326.5" y1="260.13" y2="277.65" stroke="#303b48" stroke-width="1.2"/>
+<line x1="322.5" x2="330.5" y1="260.13" y2="260.13" stroke="#303b48" stroke-width="1.2"/>
+<line x1="322.5" x2="330.5" y1="277.65" y2="277.65" stroke="#303b48" stroke-width="1.2"/>
+<rect x="340" y="166.69" width="21" height="253.31" fill="#2f6f8f" rx="1"/>
+<line x1="350.5" x2="350.5" y1="160.85000000000002" y2="173.26000000000002" stroke="#303b48" stroke-width="1.2"/>
+<line x1="346.5" x2="354.5" y1="160.85000000000002" y2="160.85000000000002" stroke="#303b48" stroke-width="1.2"/>
+<line x1="346.5" x2="354.5" y1="173.26000000000002" y2="173.26000000000002" stroke="#303b48" stroke-width="1.2"/>
+<text x="326" y="446" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#354352">Absolutist words</text>
+<text x="326" y="462" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#354352">and generalisations</text>
+<rect x="462" y="313.42" width="21" height="106.58" fill="#b4452f" rx="1"/>
+<line x1="472.5" x2="472.5" y1="302.47" y2="323.64" stroke="#303b48" stroke-width="1.2"/>
+<line x1="468.5" x2="476.5" y1="302.47" y2="302.47" stroke="#303b48" stroke-width="1.2"/>
+<line x1="468.5" x2="476.5" y1="323.64" y2="323.64" stroke="#303b48" stroke-width="1.2"/>
+<rect x="486" y="336.78" width="21" height="83.22000000000001" fill="#8a8a8a" rx="1"/>
+<line x1="496.5" x2="496.5" y1="330.21000000000004" y2="344.08" stroke="#303b48" stroke-width="1.2"/>
+<line x1="492.5" x2="500.5" y1="330.21000000000004" y2="330.21000000000004" stroke="#303b48" stroke-width="1.2"/>
+<line x1="492.5" x2="500.5" y1="344.08" y2="344.08" stroke="#303b48" stroke-width="1.2"/>
+<rect x="510" y="333.86" width="21" height="86.14000000000001" fill="#2f6f8f" rx="1"/>
+<line x1="520.5" x2="520.5" y1="329.48" y2="338.24" stroke="#303b48" stroke-width="1.2"/>
+<line x1="516.5" x2="524.5" y1="329.48" y2="329.48" stroke="#303b48" stroke-width="1.2"/>
+<line x1="516.5" x2="524.5" y1="338.24" y2="338.24" stroke="#303b48" stroke-width="1.2"/>
+<text x="496" y="446" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#354352">Inclusive pronouns</text>
+<text x="496" y="462" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#354352">(we/us/our)</text>
+<text x="665" y="111" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#263648">B. Airline tweets</text>
+<line x1="665" x2="1195" y1="420" y2="420" stroke="#e7eaf0" stroke-width="1"/>
+<text x="654" y="425" font-size="12" font-family="Arial" text-anchor="end" fill="#5b6775">0</text>
+<line x1="665" x2="1195" y1="347" y2="347" stroke="#e7eaf0" stroke-width="1"/>
+<text x="654" y="352" font-size="12" font-family="Arial" text-anchor="end" fill="#5b6775">10</text>
+<line x1="665" x2="1195" y1="274" y2="274" stroke="#e7eaf0" stroke-width="1"/>
+<text x="654" y="279" font-size="12" font-family="Arial" text-anchor="end" fill="#5b6775">20</text>
+<line x1="665" x2="1195" y1="201" y2="201" stroke="#e7eaf0" stroke-width="1"/>
+<text x="654" y="206" font-size="12" font-family="Arial" text-anchor="end" fill="#5b6775">30</text>
+<line x1="665" x2="1195" y1="128" y2="128" stroke="#e7eaf0" stroke-width="1"/>
+<text x="654" y="133" font-size="12" font-family="Arial" text-anchor="end" fill="#5b6775">40</text>
+<line x1="665" x2="665" y1="128" y2="420" stroke="#8893a0"/>
+<line x1="665" x2="1195" y1="420" y2="420" stroke="#8893a0"/>
+<rect x="727" y="358.68" width="21" height="61.32000000000001" fill="#b4452f" rx="1"/>
+<line x1="737.5" x2="737.5" y1="355.03" y2="363.06" stroke="#303b48" stroke-width="1.2"/>
+<line x1="733.5" x2="741.5" y1="355.03" y2="355.03" stroke="#303b48" stroke-width="1.2"/>
+<line x1="733.5" x2="741.5" y1="363.06" y2="363.06" stroke="#303b48" stroke-width="1.2"/>
+<rect x="751" y="390.07" width="21" height="29.93" fill="#8a8a8a" rx="1"/>
+<line x1="761.5" x2="761.5" y1="384.23" y2="394.45" stroke="#303b48" stroke-width="1.2"/>
+<line x1="757.5" x2="765.5" y1="384.23" y2="384.23" stroke="#303b48" stroke-width="1.2"/>
+<line x1="757.5" x2="765.5" y1="394.45" y2="394.45" stroke="#303b48" stroke-width="1.2"/>
+<rect x="775" y="382.77" width="21" height="37.230000000000004" fill="#2f6f8f" rx="1"/>
+<line x1="785.5" x2="785.5" y1="376.2" y2="389.34" stroke="#303b48" stroke-width="1.2"/>
+<line x1="781.5" x2="789.5" y1="376.2" y2="376.2" stroke="#303b48" stroke-width="1.2"/>
+<line x1="781.5" x2="789.5" y1="389.34" y2="389.34" stroke="#303b48" stroke-width="1.2"/>
+<text x="761" y="446" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#354352">Exclusive pronouns</text>
+<text x="761" y="462" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#354352">(they/them/their)</text>
+<rect x="897" y="306.12" width="21" height="113.88000000000001" fill="#b4452f" rx="1"/>
+<line x1="907.5" x2="907.5" y1="301.01" y2="311.96000000000004" stroke="#303b48" stroke-width="1.2"/>
+<line x1="903.5" x2="911.5" y1="301.01" y2="301.01" stroke="#303b48" stroke-width="1.2"/>
+<line x1="903.5" x2="911.5" y1="311.96000000000004" y2="311.96000000000004" stroke="#303b48" stroke-width="1.2"/>
+<rect x="921" y="381.31" width="21" height="38.690000000000005" fill="#8a8a8a" rx="1"/>
+<line x1="931.5" x2="931.5" y1="375.47" y2="387.15" stroke="#303b48" stroke-width="1.2"/>
+<line x1="927.5" x2="935.5" y1="375.47" y2="375.47" stroke="#303b48" stroke-width="1.2"/>
+<line x1="927.5" x2="935.5" y1="387.15" y2="387.15" stroke="#303b48" stroke-width="1.2"/>
+<rect x="945" y="321.45" width="21" height="98.55000000000001" fill="#2f6f8f" rx="1"/>
+<line x1="955.5" x2="955.5" y1="311.23" y2="331.67" stroke="#303b48" stroke-width="1.2"/>
+<line x1="951.5" x2="959.5" y1="311.23" y2="311.23" stroke="#303b48" stroke-width="1.2"/>
+<line x1="951.5" x2="959.5" y1="331.67" y2="331.67" stroke="#303b48" stroke-width="1.2"/>
+<text x="931" y="446" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#354352">Absolutist words</text>
+<text x="931" y="462" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#354352">and generalisations</text>
+<rect x="1067" y="314.88" width="21" height="105.11999999999999" fill="#b4452f" rx="1"/>
+<line x1="1077.5" x2="1077.5" y1="309.77" y2="320.72" stroke="#303b48" stroke-width="1.2"/>
+<line x1="1073.5" x2="1081.5" y1="309.77" y2="309.77" stroke="#303b48" stroke-width="1.2"/>
+<line x1="1073.5" x2="1081.5" y1="320.72" y2="320.72" stroke="#303b48" stroke-width="1.2"/>
+<rect x="1091" y="325.83" width="21" height="94.17" fill="#8a8a8a" rx="1"/>
+<line x1="1101.5" x2="1101.5" y1="317.07" y2="333.86" stroke="#303b48" stroke-width="1.2"/>
+<line x1="1097.5" x2="1105.5" y1="317.07" y2="317.07" stroke="#303b48" stroke-width="1.2"/>
+<line x1="1097.5" x2="1105.5" y1="333.86" y2="333.86" stroke="#303b48" stroke-width="1.2"/>
+<rect x="1115" y="336.05" width="21" height="83.94999999999999" fill="#2f6f8f" rx="1"/>
+<line x1="1125.5" x2="1125.5" y1="326.56" y2="345.53999999999996" stroke="#303b48" stroke-width="1.2"/>
+<line x1="1121.5" x2="1129.5" y1="326.56" y2="326.56" stroke="#303b48" stroke-width="1.2"/>
+<line x1="1121.5" x2="1129.5" y1="345.53999999999996" y2="345.53999999999996" stroke="#303b48" stroke-width="1.2"/>
+<text x="1101" y="446" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#354352">Inclusive pronouns</text>
+<text x="1101" y="462" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#354352">(we/us/our)</text>
+<text x="18" y="290" font-family="Arial, sans-serif" font-size="14" fill="#425066" transform="rotate(-90 18 290)" text-anchor="middle">Share of texts (%)</text>
+<rect x="420" y="504" width="16" height="16" fill="#b4452f" rx="2"/><text x="445" y="517" font-family="Arial, sans-serif" font-size="14" fill="#263648">Negative</text>
+<rect x="580" y="504" width="16" height="16" fill="#8a8a8a" rx="2"/><text x="605" y="517" font-family="Arial, sans-serif" font-size="14" fill="#263648">Neutral</text>
+<rect x="740" y="504" width="16" height="16" fill="#2f6f8f" rx="2"/><text x="765" y="517" font-family="Arial, sans-serif" font-size="14" fill="#263648">Positive</text>
+<text x="620" y="550" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#657285">Source: ASA-CD analysis of the YouTube comments and airline sentiment corpora</text></svg>
